@@ -1,0 +1,38 @@
+body {
+    font-family: "Helvetica";
+    color: #686765;
+}
+
+#graph {
+	margin: 0 auto;
+}
+
+.axis {
+    fill: none;
+    stroke: #AAA;
+    stroke-width: 1px;
+}
+
+text {
+    stroke: none;
+    fill: #666666;
+    font-size: .8em;
+    font-family: "Helvetica";
+}
+
+.label {
+    display: none;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.dot {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.node:hover .label {
+    display: block;
+}
