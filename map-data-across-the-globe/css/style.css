@@ -1,0 +1,49 @@
+.map {
+	display: inline-block;
+	background-color: rgba(156, 39, 176, 0.32);
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid white;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	margin: 4px 0;
+}
+
+.map p {
+	font-size: 16px;
+}
+
+body {
+	background-color: #009688;
+}
+
+svg {
+	border: 1px solid white;
+}
+
+svg {
+	background-color: #266D98;
+}
+path {
+	stroke-width: 0.25px;
+}
+.map {
+	display: none;
+	background-color: rgba(156, 39, 176, 0.32);
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid white;
+	position: absolute;
+}
+
+.graph-title {
+	text-align: center;
+	color: white;
+	margin: 50px 0;
+}
